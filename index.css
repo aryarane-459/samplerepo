@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.apply_box {
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 6px 5px 7px rgba(1, 1, 1, 0.1);
+    border-radius: 15px;
+    background-color: blanchedalmond;
+}
+
+.title_smol {
+    font-size: 20px;
+}
+
+.form_container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.form_control {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: rgb(179, 88, 9);
+
+}
+
+input:focus {
+    outline-color: beige;
+}
+
+.button_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: transparent solid 2px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: bisque;
+    border: 2px solid;
+    color: aquamarine;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+.textarea_control {
+    grid-column: 1 / span 2;
+}
+
+.textarea_control textarea {
+    width: 100%
+}
+
+.container {
+    background-color: lightcyan;
+}
+
+.turf-gallery figure {
+    text-align: center;
+    margin: 0;
+}
+
+.turf-gallery figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #d1d1d1;
+    font-style: italic;
+}
